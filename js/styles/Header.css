@@ -5,10 +5,10 @@
   height: 497px;
   border: solid #000;
   border-width: 2px;
-  background-image: url(./img/headerbg.png);
+  background-image: url(../img/headerbg.png);
   background-size: auto;
   background-repeat: no-repeat;
-  background-position: 50% 73%;
+  background-position: 50% 68%;
   /* background-attachment: fixed; */
 }
 
