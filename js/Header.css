@@ -1,0 +1,37 @@
+.header-container {
+  display: flex;
+  justify-content: center;
+  width: 1024px;
+  height: 497px;
+  border: solid #000;
+  border-width: 2px;
+  background-image: url(./img/headerbg.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: 50% 73%;
+  /* background-attachment: fixed; */
+}
+
+.header-banner-container {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  height: 220px;
+  width: 450PX;
+  background-image: url('http://www.theblogmarket.co/wp-content/uploads/2015/11/GOLD-11.jpg');
+}
+
+.header-banner-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+  height: 212px;
+  width: 442px;
+  background-color: white;
+}
+
+.header-banner-content > img {
+  padding: 0px 42px 0px 42px
+}
