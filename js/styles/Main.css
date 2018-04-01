@@ -21,11 +21,22 @@
   justify-content: flex-start;
   align-items: center;
   padding-top: 18px;
+  margin-right: 100px;
 }
 
-.groom-deco-container {
+.groom-container {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  justify-content: flex-start;
+}
+
+.groom-deco-container1 {
   height: 0px;
   width: 0px;
+  /* margin-bottom: 139px; */
+  margin-right: 50px;
+  z-index: -100;
 }
 
 .groom-img-container {
@@ -37,11 +48,27 @@
   align-items: center;
   justify-content: center;
   margin-right: 35px;
-  z-index: 1;
+  z-index: 10;
+}
+
+#groom-deco1 {
+  z-index: -100
 }
 
 #groom-pic {
-  z-index: 1;
+  z-index: 10;
+}
+
+.groom-deco-container2 {
+  height: 0px;
+  width: 0px;
+  z-index: -15;
+}
+
+#groom-deco2 {
+  z-index: -15;
+  margin-top: 84px;
+  margin-left: 91px;
 }
 
 .parent-text-container {
@@ -51,8 +78,8 @@
   /* align-items: center; */
   font-size: 28px;
   font-weight: bold;
-  width: 79px;
-  height: 80px;
+  min-width: 79px;
+  min-height: 80px;
 }
 
 .text-margin {
@@ -97,6 +124,37 @@
   font-weight: bold;
 }
 
+.bride-container {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  justify-content: flex-end;
+}
+
+.bride-deco-container1 {
+  height: 0px;
+  width: 0px;
+  z-index: -10
+}
+
+#bride-deco1 {
+  z-index: -10;
+  margin-top: 110px;
+  margin-left: 10px;
+}
+
+.bride-deco-container2 {
+  height: 0px;
+  width: 0px;
+  z-index: -200
+}
+
+#bride-deco2 {
+  z-index: -200;
+  margin-top: 20px;
+  margin-left: 145px;
+}
+
 .bride-img-container {
   display: flex;
   background-image: url('http://www.theblogmarket.co/wp-content/uploads/2015/11/GOLD-11.jpg');
@@ -106,11 +164,13 @@
   align-items: center;
   justify-content: center;
   margin-left: 36px;
+  z-index: 10;
 }
 
 #bride-pic {
   width: 140px;
   height: 140px;
+  z-index: 10;
 }
 
 .grace-text {

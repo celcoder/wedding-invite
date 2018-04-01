@@ -4,11 +4,16 @@ import './styles/Main.css';
 const Main = () => (
   <div className="main-container">
     <div className="main-groom-section">
-      {/* <span className="groom-deco-container">
-        <img id="groom-pic" src="./js/img/groom_deco1.png" alt="" />
-      </span> */}
-      <div className="groom-img-container">
-        <img id="groom-pic" src="./js/img/groom_pic.png" alt="" />
+      <div className="groom-container">
+        <span className="groom-deco-container1">
+          <img id="groom-deco1" src="./js/img/groom_deco1.png" alt="" />
+        </span>
+        <span className="groom-deco-container2">
+          <img id="groom-deco2" src="./js/img/groom_deco2.png" alt="" />
+        </span>
+        <span className="groom-img-container">
+          <img id="groom-pic" src="./js/img/groom_pic.png" alt="" />
+        </span>
       </div>
       <div className="parent-text-container">
         <p className="text-margin">손정주</p>
@@ -28,8 +33,16 @@ const Main = () => (
         <p id="name-text">의 장녀</p>
         <p>윤경</p>
       </div>
-      <div className="bride-img-container">
-        <img id="bride-pic" src="./js/img/bride_pic.png" alt="" />
+      <div className="bride-container">
+        <span className="bride-deco-container1">
+          <img id="bride-deco1" src="./js/img/bride_deco2.png" alt="" />
+        </span>
+        <span className="bride-deco-container2">
+          <img id="bride-deco2" src="./js/img/bride_deco1.png" alt="" />
+        </span>
+        <span className="bride-img-container">
+          <img id="bride-pic" src="./js/img/bride_pic.png" alt="" />
+        </span>
       </div>
     </div>
     <div className="grace-text">
