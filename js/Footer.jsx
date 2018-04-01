@@ -3,7 +3,7 @@ import './styles/Footer.css';
 
 const Footer = () => (
   <div className="footer-container">
-    <div className="map-container"/>
+    <div id="map" />
     <div className="footer-text-container" />
   </div>
 );

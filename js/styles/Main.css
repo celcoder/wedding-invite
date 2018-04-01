@@ -16,12 +16,12 @@
   border-width: 2px;
   min-height: 160px;
   max-height: 160px;
-  min-width: 100%;
-  max-width: 100%;
+  min-width: 104%;
+  max-width: 104%;
   justify-content: flex-start;
   align-items: center;
   padding-top: 18px;
-  margin-right: 100px;
+  margin-right: 19%;
 }
 
 .groom-container {

@@ -43,7 +43,7 @@ const config = {
         loader: ExtractTextPlugin.extract({ fallback: 'style-loader', use: 'css-loader' })
       },
       {
-        test: /\.(ttf|eot|svg|png)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+        test: /\.(otf|ttf|eot|svg|png)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
         use: [{loader: 'file-loader'}]
       }
     ]

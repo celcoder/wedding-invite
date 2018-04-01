@@ -16,7 +16,7 @@
   /* transform: rotate(-180deg); */
 }
 
-.map-container {
+#map {
   min-height: 317.2px;
   max-height: 317.2px;
   min-width: 438px;

@@ -1,5 +1,15 @@
+@font-face {
+  font-family: 'BinggraeII';
+  src: url(/js/fonts/BinggraeII.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'CormorantSC-SemiBold';
+  src: url(/js/fonts/CormorantSC-SemiBold.ttf) format('truetype');
+}
+
 html {
-  font-family: lato;
+  font-family: 'BinggraeII';
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */

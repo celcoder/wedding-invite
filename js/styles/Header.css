@@ -31,7 +31,9 @@
   text-align: center;
   height: 216px;
   width: 430px;
-  background-color: #ffffff
+  background-color: #ffffff;
+  font-family: 'CormorantSC-SemiBold';
+  font-size: 22px;
 }
 
 .header-banner-content > img {
