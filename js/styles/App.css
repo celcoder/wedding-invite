@@ -9,7 +9,8 @@
 }
 
 html {
-  font-family: 'BinggraeII';
+  font-family: 'BinggraeII',
+  'CormorantSC-SemiBold';
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */

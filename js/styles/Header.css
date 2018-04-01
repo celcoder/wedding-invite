@@ -26,16 +26,26 @@
 .header-banner-content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-self: center;
   text-align: center;
   height: 216px;
-  width: 430px;
+  width: 432px;
   background-color: #ffffff;
   font-family: 'CormorantSC-SemiBold';
+  font-weight: 600;
   font-size: 22px;
 }
 
 .header-banner-content > img {
   padding: 0px 42px 0px 42px
+}
+
+#header-text-first {
+  margin: 43px 0px 12px 0px;
+}
+
+#header-text-last {
+  font-size: 22px;
+  margin-top: 10px;
 }
