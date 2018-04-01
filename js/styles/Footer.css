@@ -1,0 +1,34 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 1024px;
+  max-width: 1024px;
+  min-height: 495px;
+  max-height: 495px;
+  border: solid peru;
+  border-width: 2px;
+  /* background-image: url(../img/headerbg.png);
+  background-size: initial;
+  background-repeat: no-repeat;
+  background-position: 50% 200%; */
+  /* transform: rotate(180deg) scaleX(-1); */
+  /* transform: rotate(-180deg); */
+}
+
+.map-container {
+  min-height: 317.2px;
+  max-height: 317.2px;
+  min-width: 438px;
+  max-width: 438px;
+  border: solid blue;
+  border-width: 2px;
+  align-self: center;
+}
+
+.footer-text-container {
+  width: 100%;
+  min-height: 34px;
+  max-height: 34px;
+  background-color: #ffdfe1;
+}

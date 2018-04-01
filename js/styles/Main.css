@@ -1,0 +1,150 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 800px;
+  min-width: 438px;
+  max-width: 438px;
+  border: solid purple;
+  border-width: 2px;
+}
+
+.main-groom-section {
+  display: flex;
+  flex-direction: row;
+  border: solid red;
+  border-width: 2px;
+  min-height: 160px;
+  max-height: 160px;
+  min-width: 100%;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 18px;
+}
+
+.groom-deco-container {
+  height: 0px;
+  width: 0px;
+}
+
+.groom-img-container {
+  display: flex;
+  background-image: url('http://www.theblogmarket.co/wp-content/uploads/2015/11/GOLD-11.jpg');
+  border-radius: 50%;
+  height: 146px;
+  width: 146px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 35px;
+  z-index: 1;
+}
+
+#groom-pic {
+  z-index: 1;
+}
+
+.parent-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+  font-size: 28px;
+  font-weight: bold;
+  width: 79px;
+  height: 80px;
+}
+
+.text-margin {
+  margin: 0px 0px 0px 0px;
+}
+
+.groom-name-text-container {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#name-text {
+  align-self: center;
+  font-size: 22px;
+  margin-left: 6px;
+  margin-right: 10px;
+  font-weight: normal;
+}
+
+.main-bride-section {
+  display: flex;
+  flex-direction: row;
+  border: solid green;
+  border-width: 2px;
+  min-height: 180px;
+  max-height: 180px;
+  min-width: 100%;
+  max-width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 51px;
+}
+
+.bride-name-text-container{
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.bride-img-container {
+  display: flex;
+  background-image: url('http://www.theblogmarket.co/wp-content/uploads/2015/11/GOLD-11.jpg');
+  border-radius: 50%;
+  height: 146px;
+  width: 146px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 36px;
+}
+
+#bride-pic {
+  width: 140px;
+  height: 140px;
+}
+
+.grace-text {
+  border: solid black;
+  border-width: 2px;
+  height: 128px;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+}
+
+.container-divider {
+  min-height: 113px;
+  max-height: 113px;
+  width: 100%;
+  border: solid green;
+  border-width: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.location-text-container {
+  min-height: 128px;
+  max-height: 128px;
+  border: solid red;
+  border-width: 2px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+#last-text {
+  margin: 0px 0px 0px 63px;
+}
