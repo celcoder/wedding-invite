@@ -6,13 +6,13 @@ const Main = () => (
     <div className="main-groom-section">
       <div className="groom-container">
         <span className="groom-deco-container1">
-          <img id="groom-deco1" src="./js/img/groom_deco1.png" alt="" />
+          <img id="groom-deco1" src="./js/assets/img/groom_deco1.png" alt="" />
         </span>
         <span className="groom-deco-container2">
-          <img id="groom-deco2" src="./js/img/groom_deco2.png" alt="" />
+          <img id="groom-deco2" src="./js/assets/img/groom_deco2.png" alt="" />
         </span>
         <span className="groom-img-container">
-          <img id="groom-pic" src="./js/img/groom_pic.png" alt="" />
+          <img id="groom-pic" src="./js/assets/img/groom_pic.png" alt="" />
         </span>
       </div>
       <div className="parent-text-container">
@@ -35,24 +35,24 @@ const Main = () => (
       </div>
       <div className="bride-container">
         <span className="bride-deco-container1">
-          <img id="bride-deco1" src="./js/img/bride_deco2.png" alt="" />
+          <img id="bride-deco1" src="./js/assets/img/bride_deco2.png" alt="" />
         </span>
         <span className="bride-deco-container2">
-          <img id="bride-deco2" src="./js/img/bride_deco1.png" alt="" />
+          <img id="bride-deco2" src="./js/assets/img/bride_deco1.png" alt="" />
         </span>
         <span className="bride-img-container">
-          <img id="bride-pic" src="./js/img/bride_pic.png" alt="" />
+          <img id="bride-pic" src="./js/assets/img/bride_pic.png" alt="" />
         </span>
       </div>
     </div>
     <div className="grace-text">
       <p className="text-margin">하나님의 사랑으로 만난 두 사람이 이제</p>
-      <p>새로운 가정을 이루는 아름다운 약속을 하려합니다.</p>
-      <p>언제나 아름답고 주위에 사랑을 나누는 행복한 가정을 이루도록</p>
-      <p>오셔서 축복해주시고 지켜봐 주십시오.</p>
+      <p className="text-margin">새로운 가정을 이루는 아름다운 약속을 하려합니다.</p>
+      <p className="text-margin">언제나 아름답고 주위에 사랑을 나누는 행복한 가정을 이루도록</p>
+      <p className="text-margin">오셔서 축복해주시고 지켜봐 주십시오.</p>
     </div>
     <div className="container-divider">
-      <img src="./js/img/divider.png" alt="" />
+      <img id="divider-img" src="./js/assets/img/divider.png" alt="" />
     </div>
     <div className="location-text-container">
       <p className="text-margin"><b>일시:</b> 2018년 5월 28일 Memorial Day 오후 7</p>

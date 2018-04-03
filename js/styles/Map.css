@@ -1,0 +1,10 @@
+.map-container {
+  display: flex;
+  min-height: 317.2px;
+  max-height: 317.2px;
+  min-width: 438px;
+  max-width: 438px;
+  border: solid blue;
+  border-width: 1px;
+  align-self: center;
+}

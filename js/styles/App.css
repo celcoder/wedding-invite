@@ -1,11 +1,16 @@
 @font-face {
   font-family: 'BinggraeII';
-  src: url(/js/fonts/BinggraeII.ttf) format('truetype');
+  src: url(/js/assets/fonts/BinggraeII.ttf) format('truetype');
 }
+
+/* @font-face {
+  font-family: 'BinggraeII-Bold';
+  src: url(/js/assets/fonts/BinggraeII-Bold.ttf) format('truetype');
+} */
 
 @font-face {
   font-family: 'CormorantSC-SemiBold';
-  src: url(/js/fonts/CormorantSC-SemiBold.ttf) format('truetype');
+  src: url(/js/assets/fonts/CormorantSC-SemiBold.ttf) format('truetype');
 }
 
 html {

@@ -1,9 +1,10 @@
 import React from 'react';
+import GoogleMap from './GoogleMap';
 import './styles/Footer.css';
 
 const Footer = () => (
   <div className="footer-container">
-    <div id="map" />
+    <GoogleMap />
     <div className="footer-text-container" />
   </div>
 );
