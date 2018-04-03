@@ -8,6 +8,7 @@ import './styles/App.css';
 const App = () => (
   <div className="container">
     <Header />
+    <div className="header-mobile-divider" />
     <Main />
     <Footer />
   </div>

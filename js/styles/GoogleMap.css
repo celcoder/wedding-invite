@@ -1,0 +1,15 @@
+.google-map {
+  display: flex;
+  align-self: center;
+  height: 317.2px; 
+  width: 438px;
+  margin-top: 24px;
+}
+
+@media all and (max-width: 600px) {
+  .google-map {
+    margin-top: 0px;
+    height: 218px;
+    width: 300px;
+  }
+}

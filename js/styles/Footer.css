@@ -22,3 +22,11 @@
   max-height: 34px;
   background-color: #ffdfe1;
 }
+
+@media all and (max-width: 600px) {
+  .footer-container {
+    min-height: 264px;
+    max-height: 264px;
+    width: 300px;
+  }
+}

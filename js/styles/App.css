@@ -36,3 +36,19 @@ body {
   align-items: center;
   color: #333;
 }
+
+.header-mobile-divider {
+  visibility: hidden;
+  height: 0px;
+  width: 0px;
+}
+
+@media all and (max-width: 600px) {
+  .header-mobile-divider {
+    visibility: visible;
+    min-width: 88px;
+    min-height: 3px;
+    background-image: url('http://www.theblogmarket.co/wp-content/uploads/2015/11/GOLD-11.jpg');
+    margin-top: 160px;
+  }
+}

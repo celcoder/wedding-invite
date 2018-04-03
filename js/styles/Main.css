@@ -72,7 +72,18 @@
   margin-left: 91px;
 }
 
-.parent-text-container {
+.text-margin {
+  margin: 0px 0px 0px 0px;
+}
+
+.groom-text-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.parent-text {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -80,20 +91,25 @@
   font-size: 28px;
   font-family: 'BinggraeII';
   font-weight: bold;
-  min-width: 79px;
+  min-width: 80px;
+  max-width: 82px;
   min-height: 80px;
+  max-height: 80px;
 }
 
-.text-margin {
-  margin: 0px 0px 0px 0px;
-}
 
-.groom-name-text-container {
+.groom-name-text {
   display: flex;
-  flex-direction: row;
-  align-self: center;
+  align-items: center;
   font-size: 28px;
   font-weight: bold;
+  min-height: 80px;
+  max-height: 80px;
+}
+
+.sub-text {
+  display: flex;
+  text-align: center;
 }
 
 #name-text {
@@ -118,12 +134,19 @@
   padding: 15px 0px 53px 0px;
 }
 
-.bride-name-text-container{
+.bride-text-container {
   display: flex;
   flex-direction: row;
-  align-self: center;
+}
+
+.bride-name-text{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   font-size: 28px;
   font-weight: bold;
+  min-height: 80px;
+  max-height: 80px;
 }
 
 .bride-container {
@@ -216,4 +239,67 @@
 
 #last-text {
   margin: 0px 0px 0px 63px;
+}
+
+@media all and (max-width: 600px) {
+  .main-container {
+    margin-top: 46px;
+    min-width: 320px;
+    max-width: 320px;
+    min-height: 1048px;
+    max-height: 1048px;
+  }
+  .main-groom-section {
+    padding-top: 0px;
+    margin-right: 0px;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: space-between;
+    min-width: 320px;
+    max-width: 320px;
+    min-height: 250px;
+  }
+  .groom-container {
+    display: flex;
+    align-self: center;
+    margin-right: 12px;
+  }
+  .groom-text-container {
+    display: flex;
+    align-self: center;
+    margin-top: 50px;
+  }
+  .main-bride-section {
+    display: flex;
+    border: solid green;
+    border-width: 1px;
+    min-width: 320px;
+    max-width: 320px;
+    min-height: 280px;
+    max-height: 280px;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 0 0;
+    margin: 44px 0px 0px 0px;
+  }
+  .bride-container {
+    margin-right: 36px;
+  }
+  .grace-text {
+    margin-top: 20px;
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 160px;
+    max-height: 160px;
+    font-size: 14px;
+  }
+  .location-text-container{
+    min-height: 192px;
+    max-height: 192px;
+    min-width: 242px;
+    max-width: 242px;
+    font-size: 13px;
+    line-height: 2.46;
+  }
 }

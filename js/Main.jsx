@@ -15,23 +15,31 @@ const Main = () => (
           <img id="groom-pic" src="./js/assets/img/groom_pic.png" alt="" />
         </span>
       </div>
-      <div className="parent-text-container">
-        <p className="text-margin">손정주</p>
-        <p className="text-margin">김성순</p>
-      </div>
-      <div className="groom-name-text-container">
-        <p id="name-text">의 차남</p>
-        <p>민호</p>
+      <div className="groom-text-container">
+        <div className="parent-text">
+          <p className="text-margin">손정주</p>
+          <p className="text-margin">김성순</p>
+        </div>
+        <div className="sub-text">
+          <p id="name-text">의 차남</p>
+        </div>
+        <div className="groom-name-text">
+          <p>민호</p>
+        </div>
       </div>
     </div>
     <div className="main-bride-section">
-      <div className="parent-text-container">
-        <p className="text-margin">조호영</p>
-        <p className="text-margin">조규옥</p>
-      </div>
-      <div className="bride-name-text-container">
-        <p id="name-text">의 장녀</p>
-        <p>윤경</p>
+      <div className="bride-text-container">
+        <div className="parent-text">
+          <p className="text-margin">조호영</p>
+          <p className="text-margin">조규옥</p>
+        </div>
+        <div className="sub-text">
+          <p id="name-text">의 장녀</p>
+        </div>
+        <div className="bride-name-text">
+          <p>윤경</p>
+        </div>
       </div>
       <div className="bride-container">
         <span className="bride-deco-container1">

@@ -3,7 +3,7 @@ import GoogleMapReact from 'google-map-react';
 import { shape, number } from 'prop-types';
 import Map from './Map';
 
-import './styles/Map.css';
+import './styles/GoogleMap.css';
 
 const redHue = [
   {
@@ -47,7 +47,7 @@ class GoogleMap extends Component {
 
   render() {
     return (
-      <div style={{ display: 'flex', 'align-self': 'center', height: '317.2px', width: '438px', 'margin-top': '24px' }}>
+      <div className="google-map">
         <GoogleMapReact
           bootstrapURLKeys={{ key: 'AIzaSyACc2__sVFWPLcHbVpQxWQj2YrquHhA7c8', language: 'Kr' }}
           defaultCenter={this.props.center}
