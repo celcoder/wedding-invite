@@ -8,11 +8,11 @@
   max-height: 519px;
   border: solid purple;
   border-width: 1px;
-  /* background-image: url(../img/headerbg.png);
+  /* background-image: url(../assets/img/headerbg.png);
   background-size: initial;
   background-repeat: no-repeat;
-  background-position: 50% 200%; */
-  /* transform: rotate(180deg) scaleX(-1); */
+  background-position: 50% 200%;
+  transform: rotate(180deg) scaleX(-1.5); */
   /* transform: rotate(-180deg); */
 }
 
@@ -25,8 +25,14 @@
 
 @media all and (max-width: 600px) {
   .footer-container {
+    padding-top: 20px;
     min-height: 264px;
     max-height: 264px;
-    width: 300px;
+    min-width: 320px;
+    max-width: 320px;
+  }
+  .footer-text-container {
+    min-width: 100%;
+    max-width: 100%;
   }
 }

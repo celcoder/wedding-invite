@@ -57,14 +57,29 @@ const Main = () => (
       <p className="text-margin">하나님의 사랑으로 만난 두 사람이 이제</p>
       <p className="text-margin">새로운 가정을 이루는 아름다운 약속을 하려합니다.</p>
       <p className="text-margin">언제나 아름답고 주위에 사랑을 나누는 행복한 가정을 이루도록</p>
-      <p className="text-margin">오셔서 축복해주시고 지켜봐 주십시오.</p>
+      <p className="text-margin">오셔서 축복해 주시고 지켜봐 주십시오.</p>
+    </div>
+    <div className="grace-text-mobile">
+      <p className="text-margin">하나님의 사랑으로 만난 두 사람이 이제 새로운</p>
+      <p className="text-margin">가정을 이루는 아름다운 약속을 하려합니다.</p>
+      <p className="text-margin">언제나 아름답고 주위에 사랑을 나누는 행복한</p>
+      <p className="text-margin">가정을 이루도록 오셔서 축복해 주시고</p>
+      <p className="text-margin">지켜봐 주십시오.</p>
     </div>
     <div className="container-divider">
       <img id="divider-img" src="./js/assets/img/divider.png" alt="" />
     </div>
     <div className="location-text-container">
-      <p className="text-margin"><b>일시:</b> 2018년 5월 28일 Memorial Day 오후 7</p>
-      <p className="text-margin"><b>장소:</b> 은혜교회 4337 24 th St, Little Neck, NY 11363</p>
+      <p className="text-margin"><b>일시:</b> 2018년 5월 28일 Memorial Day 오후 7시</p>
+      <p className="text-margin"><b>장소:</b> 은혜교회 4337 249th St, Little Neck, NY 11363</p>
+      <p className="text-margin"><b>오시는길:</b> 버스Q12 또는 N20 (도보 3분)</p>
+      <p id="last-text">주차 본관주차장</p>
+    </div>
+    <div className="location-text-container-mobile">
+      <p className="text-margin"><b>일시:</b> 2018년 5월 28일</p>
+      <p className="mobile-padding-text">Memorial Day 오후 7시</p>
+      <p className="text-margin"><b>장소:</b> 은혜교회 4337 249th St,</p>
+      <p className="mobile-padding-text">Little Neck, NY 11363</p>
       <p className="text-margin"><b>오시는길:</b> 버스Q12 또는 N20 (도보 3분)</p>
       <p id="last-text">주차 본관주차장</p>
     </div>
