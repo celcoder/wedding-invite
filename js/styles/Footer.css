@@ -8,11 +8,11 @@
   max-height: 519px;
   border: solid purple;
   border-width: 1px;
-  /* background-image: url(../assets/img/headerbg.png);
+  background-image: url(../assets/img/footerbg.jpg);
   background-size: initial;
   background-repeat: no-repeat;
-  background-position: 50% 200%;
-  transform: rotate(180deg) scaleX(-1.5); */
+  background-position: 50% -77%;
+  /* transform: rotate(180deg) scaleX(-1); */
   /* transform: rotate(-180deg); */
 }
 
@@ -32,18 +32,10 @@
   margin-right: 20px;
 }
 
-/* @media all and (max-width: 768px) {
-  .footer-container {
-    width: 100%;
-    max-width: 768px;
-  }
-} */
-
 @media all and (max-width: 600px) {
   .footer-container {
-    padding-top: 20px;
-    min-height: 264px;
-    max-height: 264px;
+    min-height: 284px;
+    max-height: 284px;
     width: 100%;
     max-width: 320px;
   }

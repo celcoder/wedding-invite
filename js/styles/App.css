@@ -1,11 +1,13 @@
 @font-face {
-  font-family: 'BinggraeII';
-  src: url(/js/assets/fonts/BinggraeII.ttf) format('truetype');
+  font-family: 'Binggrae';
+  font-style: normal;
+  font-weight: 400;
+  src: url(/js/assets/fonts/Binggrae.ttf) format('truetype');
 }
 
 @font-face {
-  font-family: 'BinggraeII-Bold';
-  src: url(/js/assets/fonts/BinggraeII-Bold.ttf) format('truetype');
+  font-family: 'Binggrae-Bold';
+  src: url(/js/assets/fonts/Binggrae-Bold.ttf) format('truetype');
 }
 
 @font-face {
@@ -20,7 +22,7 @@ outline: solid #f00 1px !important;
 } */
 
 html {
-  font-family: 'BinggraeII',
+  font-family: 'Binggrae',
   'CormorantSC-SemiBold';
   /* 1 */
   -ms-text-size-adjust: 100%;

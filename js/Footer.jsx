@@ -6,7 +6,7 @@ const Footer = () => (
   <div className="footer-container">
     <GoogleMap />
     <div className="footer-text-container">
-      <p id='made-by'>Designed with by Jesse</p>
+      <p id='made-by'>Designed by Jesse and coded by Ethan with </p>
     </div>
   </div>
 );

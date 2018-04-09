@@ -37,8 +37,12 @@
   font-size: 22px;
 }
 
-.header-banner-content > img {
-  padding: 0px 42px 0px 42px
+#header-banner-img {
+  width: 346px;
+  height: 57px;
+  flex: display;
+  align-self: center;
+  padding: 0px 42px 0px 42px;
 }
 
 #header-text-first {
@@ -61,9 +65,9 @@
     border: red solid;
     border-width: 1px;
     background-image: url(../assets/img/mobilebg.png);
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50% 100%;
+    background-position: 50% 120%;
     /* background-attachment: fixed; */
   }
   

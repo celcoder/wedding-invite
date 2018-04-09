@@ -3,12 +3,12 @@
   align-self: center;
   height: 317.2px; 
   width: 438px;
-  margin-top: 24px;
+  padding-top: 24px;
 }
 
 @media all and (max-width: 600px) {
   .google-map {
-    margin-top: 0px;
+    padding-top: 20px;
     height: 218px;
     width: 300px;
   }
