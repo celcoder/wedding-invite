@@ -43,8 +43,17 @@ const config = {
         loader: ExtractTextPlugin.extract({ fallback: 'style-loader', use: 'css-loader' })
       },
       {
-        test: /\.(otf|ttf|eot|svg|png|jpg)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
-        use: [{loader: 'file-loader'}]
+        test: /\.(gif|png|jpe?g|svg)$/i,
+        use: ['file-loader', {
+            loader: 'image-webpack-loader',
+            options: {
+              bypassOnDebug: true
+            }
+          }]
+      },
+      {
+        test: /\.(otf|ttf|eot)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+        use: [{ loader: 'file-loader' }]
       }
     ]
   },
