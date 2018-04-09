@@ -25,7 +25,17 @@
 }
 
 #made-by {
-  margin-right: 20px;
+  margin-right: 12px;
+}
+
+.url-link {
+  text-decoration: none;
+  color: #4a90e2;
+}
+
+#heart {
+  width: 10px;
+  height: 10px;
 }
 
 @media all and (max-width: 600px) {
@@ -37,5 +47,8 @@
   }
   .footer-text-container {
     font-size: 14px;
+  }
+  #made-by {
+    margin-right: 7px;
   }
 }
