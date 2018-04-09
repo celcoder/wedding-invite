@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import GoogleMapReact from 'google-map-react';
 import { shape, number } from 'prop-types';
-import Map from './Map';
-
 import './styles/GoogleMap.css';
 
 const redHue = [
@@ -36,8 +34,14 @@ class GoogleMap extends Component {
   };
 
   createMapOptions = customStyling => ({
-    styles: customStyling
+    styles: customStyling,
+    disableDefaultUI: true
   });
+
+  openToNewTab = () => {
+    const url = `https://www.google.com.sa/maps/place/Eun+Hae+Presbyterian+Church/@40.7684968,-73.7383359,18.25z/data=!4m5!3m4!1s0x89c289fa8de502a3:0x606d935508758062!8m2!3d40.768502!4d-73.7383555?hl=en`;
+    window.open(url, '_black');
+  };
 
   renderMarkers = (map, maps) =>
     new maps.Marker({
@@ -53,11 +57,10 @@ class GoogleMap extends Component {
           defaultCenter={this.props.center}
           defaultZoom={this.props.zoom}
           options={this.createMapOptions(redHue)}
+          onClick={this.openToNewTab}
           onGoogleApiLoaded={({ map, maps }) => this.renderMarkers(map, maps)}
           yesIWantToUseGoogleMapApiInternals
-        >
-          <Map lat={this.props.center.lat} lng={this.props.center.lng} text={''} />
-        </GoogleMapReact>
+        />
       </div>
     );
   }
