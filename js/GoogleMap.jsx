@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import GoogleMapReact from 'google-map-react';
 import { shape, number } from 'prop-types';
 import './styles/GoogleMap.css';
@@ -19,7 +19,7 @@ const redHue = [
   }
 ];
 
-class GoogleMap extends Component {
+class GoogleMap extends PureComponent {
   static defaultProps = {
     center: { lat: 40.7685018, lng: -73.7383554 },
     zoom: 17
@@ -40,7 +40,7 @@ class GoogleMap extends Component {
 
   openToNewTab = () => {
     const url = `https://www.google.com.sa/maps/place/Eun+Hae+Presbyterian+Church/@40.7684968,-73.7383359,18.25z/data=!4m5!3m4!1s0x89c289fa8de502a3:0x606d935508758062!8m2!3d40.768502!4d-73.7383555?hl=en`;
-    window.open(url, '_black');
+    window.open(url, '_blank');
   };
 
   renderMarkers = (map, maps) =>
