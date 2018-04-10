@@ -72,7 +72,7 @@ const config = {
 if (process.env.NODE_ENV === 'production') {
   config.entry = './js/ClientApp.jsx';
   config.devtool = false;
-  const fontmin = new Fontmin().src('./js/assets/fonts/*.ttf').dest('public/assets/fonts');
+  const fontmin = new Fontmin().src('./js/assets/fonts/*.ttf').dest('public/js/assets/fonts');
   fontmin.run((err, files) => {
     if (err) {
       throw err;
