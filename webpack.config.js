@@ -77,7 +77,7 @@ if (process.env.NODE_ENV === 'production') {
     if (err) {
       throw err;
     }
-    console.log(files[0]);
+    console.log(files);
   });
 }
 
