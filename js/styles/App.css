@@ -2,17 +2,17 @@
   font-family: 'Binggrae';
   font-style: normal;
   font-weight: 400;
-  src: url(/js/assets/fonts/Binggrae.ttf) format('truetype');
+  src: url(../assets/fonts/Binggrae.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'Binggrae-Bold';
-  src: url(/js/assets/fonts/Binggrae-Bold.ttf) format('truetype');
+  src: url(../assets/fonts/Binggrae-Bold.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'CormorantSC-SemiBold';
-  src: url(/js/assets/fonts/CormorantSC-SemiBold.ttf) format('truetype');
+  src: url(../assets/fonts/CormorantSC-SemiBold.ttf) format('truetype');
 }
 /*debug*/
 /* * {
