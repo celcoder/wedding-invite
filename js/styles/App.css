@@ -2,17 +2,22 @@
   font-family: 'Binggrae';
   font-style: normal;
   font-weight: 400;
-  src: url(../assets/fonts/Binggrae.ttf) format('truetype');
+  src: url(/js/assets/fonts/Binggrae.ttf) format('truetype');
+  font-display: swap;
 }
 
 @font-face {
-  font-family: 'Binggrae-Bold';
-  src: url(../assets/fonts/Binggrae-Bold.ttf) format('truetype');
+  font-family: 'Binggrae';
+  font-style: bold;
+  font-weight: 900;
+  src: url(/js/assets/fonts/Binggrae-Bold.ttf) format('truetype');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'CormorantSC-SemiBold';
-  src: url(../assets/fonts/CormorantSC-SemiBold.ttf) format('truetype');
+  src: url(/js/assets/fonts/CormorantSC-SemiBold.ttf) format('truetype');
+  font-display: swap;
 }
 /*debug*/
 /* * {
@@ -23,7 +28,8 @@ outline: solid #f00 1px !important;
 
 html {
   font-family: 'Binggrae',
-  'CormorantSC-SemiBold';
+  'CormorantSC-SemiBold',
+  Ariel;
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */

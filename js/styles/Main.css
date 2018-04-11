@@ -89,14 +89,16 @@
   max-width: 82px;
   min-height: 80px;
   max-height: 80px;
-  font-family: 'Binggrae-Bold';
+  font-family: 'Binggrae';
+  font-weight: 900;
 }
 
 .groom-name-text {
   display: flex;
   align-items: center;
   font-size: 28px;
-  font-family: 'Binggrae-Bold';
+  font-family: 'Binggrae';
+  font-weight: 900;
   min-height: 80px;
   max-height: 80px;
 }
@@ -136,7 +138,8 @@
   flex-direction: row;
   align-items: center;
   font-size: 28px;
-  font-family: 'Binggrae-Bold';
+  font-family: 'Binggrae';
+  font-weight: 900;
   min-height: 80px;
   max-height: 80px;
 }

@@ -32,7 +32,7 @@ const Main = () => (
       <div className="bride-text-container">
         <div className="parent-text">
           <p className="text-margin">조호영</p>
-          <p className="text-margin">조규옥</p>
+          <p className="text-margin">채규옥</p>
         </div>
         <div className="sub-text">
           <p id="name-text">의 장녀</p>
@@ -70,9 +70,9 @@ const Main = () => (
       <img id="divider-img" src="./js/assets/img/divider.png" alt="" />
     </div>
     <div className="location-text-container">
-      <p className="text-margin">일시: 2018년 5월 28일 Memorial Day 오후 7시</p>
-      <p className="text-margin">장소: 은혜교회 4337 249th St, Little Neck, NY 11363</p>
-      <p className="text-margin">오시는길: 버스Q12 또는 N20 (도보 3분)</p>
+      <p className="text-margin"><b>일시:</b> 2018년 5월 28일 Memorial Day 오후 7시</p>
+      <p className="text-margin"><b>장소:</b> 은혜교회 4337 249th St, Little Neck, NY 11363</p>
+      <p className="text-margin"><b>오시는길:</b> 버스Q12 또는 N20 (도보 3분)</p>
       <p id="last-text">주차 본관주차장</p>
     </div>
     <div className="location-text-container-mobile">

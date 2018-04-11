@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles/Header.css';
-
+/* in production change src="./js" to public/js" */
 const Header = () => (
   <div className="header-container">
     <div className="header-banner-container">

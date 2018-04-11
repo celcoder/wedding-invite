@@ -1,6 +1,5 @@
 const path = require('path');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
-const Fontmin = require('fontmin');
 
 const config = {
   context: __dirname,
@@ -57,7 +56,7 @@ const config = {
       },
       {
         test: /\.(otf|ttf|eot)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
-        loader: 'file-loader?limit=1024&name=fonts/[name].[ext]'
+        loader: 'file-loader?limit=1024&name=js/assets/fonts/[name].[ext]'
       }
     ]
   },
@@ -72,13 +71,6 @@ const config = {
 if (process.env.NODE_ENV === 'production') {
   config.entry = './js/ClientApp.jsx';
   config.devtool = false;
-  const fontmin = new Fontmin().src('./js/assets/fonts/*.ttf').dest('public/js/assets/fonts');
-  fontmin.run((err, files) => {
-    if (err) {
-      throw err;
-    }
-    console.log(files);
-  });
 }
 
 module.exports = config;
