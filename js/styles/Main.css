@@ -38,7 +38,7 @@
 
 .groom-img-container {
   display: flex;
-  background-image: url('http://www.theblogmarket.co/wp-content/uploads/2015/11/GOLD-11.jpg');
+  background-image: url(/js/assets/img/gold11.jpg);
   border-radius: 50%;
   height: 146px;
   width: 146px;
@@ -106,6 +106,7 @@
 .sub-text {
   display: flex;
   text-align: center;
+  height: 80px;
 }
 
 #name-text {
@@ -177,7 +178,7 @@
 
 .bride-img-container {
   display: flex;
-  background-image: url('http://www.theblogmarket.co/wp-content/uploads/2015/11/GOLD-11.jpg');
+  background-image: url(/js/assets/img/gold11.jpg);
   border-radius: 50%;
   height: 146px;
   width: 146px;
@@ -216,13 +217,14 @@
 }
 
 #divider-img {
-  padding-top: 26px;
+  padding-top: 24px;
 }
 
 .location-text-container {
   min-height: 128px;
   max-height: 128px;
-  width: 100%;
+  /* width: 100%; */
+  margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -238,88 +240,106 @@
   margin: 0px 0px 0px 71px;
 }
 
-@media all and (max-width: 600px) {
-  .main-container {
-    margin-top: 46px;
-    min-width: 320px;
-    max-width: 320px;
-    min-height: 1048px;
-    max-height: 1048px;
-  }
-  .main-groom-section {
-    padding-top: 0px;
-    margin-right: 0px;
-    flex-direction: column;
-    align-items: space-between;
-    justify-content: space-between;
-    min-width: 320px;
-    max-width: 320px;
-    min-height: 250px;
-  }
-  .groom-container {
-    display: flex;
-    align-self: center;
-    margin-right: 12px;
-  }
-  .groom-text-container {
-    display: flex;
-    align-self: center;
-    margin-top: 50px;
-  }
-  .main-bride-section {
-    display: flex;
-    min-width: 320px;
-    max-width: 320px;
-    min-height: 280px;
-    max-height: 280px;
-    flex-direction: column-reverse;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 0 0 0;
-    margin: 44px 0px 0px 0px;
-  }
-  .bride-container {
-    margin-right: 36px;
-  }
-  .grace-text {
-    display: none;
-    min-width: 0px;
-    max-width: 0px;
-    min-height: 0px;
-    max-height: 0px;
-  }
-  .grace-text-mobile {
-    display: block;
-    margin-top: 40px;
-    min-width: 300px;
-    max-width: 300px;
-    min-height: 160px;
-    max-height: 160px;
-    font-size: 14px;
-    text-align: center;
-    line-height: 2.29;
-  }
-  .location-text-container {
-    display: none;
-    min-height: 0px;
-    max-height: 0px;
-    min-width: 0px;
-    max-width: 0px;
-  }
-  .location-text-container-mobile {
-    display: block;
-    font-size: 13px;
-    line-height: 2.46;
-    min-height: 192px;
-    max-height: 192px;
-    min-width: 242px;
-    max-width: 242px;
-  }
-  .mobile-padding-text {
-    padding-left: 33px;
-    margin: 0px 0px 0px 0px;
-  }
-  #last-text {
-    margin-left: 58px;
-  }
+.mobile-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 46px;
+  min-width: 320px;
+  max-width: 320px;
+  min-height: 1048px;
+  max-height: 1048px;
+}
+
+.mobile-main-groom-section {
+  padding-top: 0px;
+  margin-right: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  justify-content: space-between;
+  min-width: 320px;
+  max-width: 320px;
+  min-height: 250px;
+}
+
+.mobile-groom-container {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  justify-content: flex-start;
+  margin-right: 12px;
+}
+
+.mobile-groom-text-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  margin-top: 50px;
+}
+
+.mobile-main-bride-section {
+  display: flex;
+  min-width: 320px;
+  max-width: 320px;
+  min-height: 280px;
+  max-height: 280px;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0 0 0;
+  margin: 44px 0px 0px 0px;
+}
+
+.mobile-bride-container {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  justify-content: flex-end;
+  margin-right: 36px;
+}
+
+.mobile-grace-text {
+  display: none;
+  min-width: 0px;
+  max-width: 0px;
+  min-height: 0px;
+  max-height: 0px;
+}
+
+.mobile-grace-text-mobile {
+  display: block;
+  margin-top: 40px;
+  min-width: 300px;
+  max-width: 300px;
+  min-height: 160px;
+  max-height: 160px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 2.29;
+}
+.mobile-location-text-container {
+  display: none;
+  min-height: 0px;
+  max-height: 0px;
+  min-width: 0px;
+  max-width: 0px;
+}
+
+.mobile-location-text-container-mobile {
+  display: block;
+  font-size: 13px;
+  line-height: 2.46;
+  min-height: 192px;
+  max-height: 192px;
+}
+
+.mobile-padding-text {
+  padding-left: 33px;
+  margin: 0px 0px 0px 0px;
+}
+
+#mobile-last-text {
+  margin: 0px 0px 0px 58px;
 }

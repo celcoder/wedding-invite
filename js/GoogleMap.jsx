@@ -1,6 +1,7 @@
 import React, { PureComponent } from 'react';
 import GoogleMapReact from 'google-map-react';
 import { shape, number } from 'prop-types';
+import isMobile from './Util';
 import './styles/GoogleMap.css';
 
 const redHue = [
@@ -33,6 +34,32 @@ class GoogleMap extends PureComponent {
     zoom: number
   };
 
+  state = {
+    mobileView: false
+  };
+
+  componentWillMount() {
+    return isMobile.any() && this.setState({ mobileView: true });
+  }
+
+  componentDidMount() {
+    this.updatePredicate();
+    window.addEventListener('resize', this.updatePredicate);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.updatePredicate);
+  }
+
+  updatePredicate = () => {
+    if (!isMobile.any() && window.innerWidth <= 736) {
+      this.setState({ mobileView: true });
+    }
+    if (!isMobile.any() && window.innerWidth > 736) {
+      this.setState({ mobileView: false });
+    }
+  };
+
   createMapOptions = customStyling => ({
     styles: customStyling,
     disableDefaultUI: true
@@ -51,7 +78,7 @@ class GoogleMap extends PureComponent {
 
   render() {
     return (
-      <div className="google-map">
+      <div className={this.state.mobileView ? 'mobile-google-map' : 'google-map'}>
         <GoogleMapReact
           bootstrapURLKeys={{ key: 'AIzaSyACc2__sVFWPLcHbVpQxWQj2YrquHhA7c8' }}
           defaultCenter={this.props.center}
